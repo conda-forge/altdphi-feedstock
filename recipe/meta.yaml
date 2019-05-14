@@ -1,5 +1,5 @@
 {% set name = "altdphi" %}
-{% set version = "1.0.4" %}
+{% set version = "1.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d4333912d4535ae94cab541ec9702a9d37835b451d1478373fecb8a4f5b68008
+  sha256: 941619105c2ae9421cee5a149aee50d4615637b92daec8a64c3362b5dba17e71
 
 build:
   noarch: python
